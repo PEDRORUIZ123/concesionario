@@ -20,12 +20,12 @@ package concesionario;
                 String vehiculo = concesionario.getItem();
 
        
-                System.out.println(nombre + "esta ocupando el " + vehiculo);
+                System.out.println(nombre + " esta ocupando el " + vehiculo);
 
             
                 Thread.sleep((long) (Math.random() * 3000) + 2000);
              
-                System.out.println(nombre + "dejo libre el " + vehiculo);
+                System.out.println(nombre + " dejo libre el " + vehiculo);
 
                 
                 concesionario.putItem(vehiculo);
